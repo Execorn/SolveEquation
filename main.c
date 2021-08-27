@@ -54,6 +54,11 @@ double sqrt(double number) {
 
 void PrintResult() {
     switch (total_roots) {
+        case -1:
+            printf("Ваше уравнение имеет 1 корень. \n");
+            printf("Единственный корень - %1.3lf. \n", first_root);
+            return;
+
         case 0:
             printf("Ваше уравнение не имеет действительных корней. \n");
             return;
@@ -86,6 +91,8 @@ void PrintResult() {
 void SolveEquation(int code) {
     switch (code) {
         case -1:
+            first_root = -coefficient_c / coefficient_b;
+            PrintResult();
             return;
 
         case 0:
@@ -136,6 +143,7 @@ void GetCoefficients() {
 void FindNumberOfRoots() {
     if (coefficient_a == 0) {
         printf("Ваше уравнение не является квадратным. Причина: a = 0. \n");
+        printf("Решаю линейное уравнение. \n");
         total_roots = -1;
         return;
     }
