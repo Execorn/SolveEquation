@@ -2,7 +2,6 @@
 
 
 
-<!-- PROJECT LOGO -->
 <br />
 <p align="center">
   <a href="https://github.com/mQwand/SolveEquation/">
@@ -23,7 +22,6 @@
 
 
 
-<!-- TABLE OF CONTENTS -->
 <details open="open">
   <summary>Контент </summary>
   <ol>
