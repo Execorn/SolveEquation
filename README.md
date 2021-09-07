@@ -103,5 +103,6 @@ A list of commonly used resources that I find helpful are listed in the acknowle
 
 
 [license-url]: https://github.com/othneildrew/https://github.com/mQwand/SolveEquation/blob/main/LICENSE.txt
+[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
 
 [product-screenshot]: images/2021-09-07.png
