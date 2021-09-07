@@ -6,7 +6,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/mQwand/SolveEquation/">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="images/logo.gif" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">SolveEquation</h3>
@@ -102,24 +102,6 @@ A list of commonly used resources that I find helpful are listed in the acknowle
 
 
 
-## Acknowledgements
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Img Shields](https://shields.io)
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Pages](https://pages.github.com)
-* [Animate.css](https://daneden.github.io/animate.css)
-* [Loaders.css](https://connoratherton.com/loaders)
-* [Slick Carousel](https://kenwheeler.github.io/slick)
-* [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll)
-* [Sticky Kit](http://leafo.net/sticky-kit)
-* [JVectorMap](http://jvectormap.com)
-* [Font Awesome](https://fontawesome.com)
-
-
-
-
-
-
 [license-url]: https://github.com/othneildrew/https://github.com/mQwand/SolveEquation/blob/main/LICENSE.txt
 
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: images/2021-09-07.png
