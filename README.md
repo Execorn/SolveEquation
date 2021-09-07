@@ -56,10 +56,8 @@
 
 Что может SolveEquation?
 * Решать квадратное уравнение, определять количество корней в зависимости от интерактивно заданных пользователем коэффициентов.
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
-
-A list of commonly used resources that I find helpful are listed in the acknowledgements.
+* Выполнять заданное пользователем количество стресс-тестов.
+* Выполнять заданное пользователем (до запуска выполнения программы) количество юнит-тестов.
 
 ### Сборка
 
