@@ -44,7 +44,7 @@ void PrintResult (double x1, double x2, int roots_number);
  */
 
 
-int isApproxZero (double number);
+int IsApproxZero (double number);
 
 /*! \brief Функция, решающая линейное уравнение.
  *

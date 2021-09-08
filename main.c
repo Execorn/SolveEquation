@@ -54,7 +54,7 @@ void PrintResult (double x1, double x2, int roots_number) {
 
 int CompleteTest(double x1, double a, double b, double c) {
     double x1_result = a * x1 * x1 + b * x1 + c;
-    if (!isApproxZero(x1_result)) {
+    if (!IsApproxZero(x1_result)) {
         printf("test failed. a = %1.6lf, b = %1.6lf, c = %1.6lf \n", a, b, c);
         return 0;
     } else {
@@ -130,7 +130,7 @@ int UnitTest (int unit_test_count, struct Equation unit_tests[unit_test_count][6
         double x1_1 = 0, x1_2 = 0;
         int my_roots_number = SolveEquation(a, b, c, &x1_1, &x1_2);
 
-        if (my_roots_number != roots_number || !isApproxZero(x1_1 - x1) || !isApproxZero(x1_2 - x2)) {
+        if (my_roots_number != roots_number || !IsApproxZero(x1_1 - x1) || !IsApproxZero(x1_2 - x2)) {
             printf("test failed. a = %1.6lf, b = %1.6lf, c = %1.6lf, "
                    "roots_number = %d, x1 = %lf, x2 = %lf \n", a, b, c, roots_number, x1, x2);
         } else {

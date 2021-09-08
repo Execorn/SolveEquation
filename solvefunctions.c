@@ -12,7 +12,7 @@ const double NOT_ROOT = INFINITY;
 
 
 
-int isApproxZero (double number) {
+int IsApproxZero (double number) {
     const double PRECISION = 0.0000005; /*!< константа, проверяющая допустимость погрешности нахождения корней */
     if (!isfinite(number)) {
         return 1;
@@ -29,7 +29,7 @@ void PrintStartingMessage () {
 int SolveEquation (double coef_a, double coef_b, double coef_c, double* x1, double* x2) {
     double disc = 0;
 
-    if (isApproxZero(coef_a)) {
+    if (IsApproxZero(coef_a)) {
         *x2 = NOT_ROOT;
         return SolveLinearEquation(coef_b, coef_c, x1);
     }
@@ -38,7 +38,7 @@ int SolveEquation (double coef_a, double coef_b, double coef_c, double* x1, doub
     if (disc < 0) {
         *x1 = *x2 = NOT_ROOT;
         return 0;
-    } else if (isApproxZero(disc)) {
+    } else if (IsApproxZero(disc)) {
         *x1 = (-coef_b) / (2 * coef_a);
         *x2 = NOT_ROOT;
         return 1;
@@ -50,15 +50,15 @@ int SolveEquation (double coef_a, double coef_b, double coef_c, double* x1, doub
 }
 
 int SolveLinearEquation (double b, double c, double* x1) {
-    if (isApproxZero(b)) {
-        if (isApproxZero(c)) {
+    if (IsApproxZero(b)) {
+        if (IsApproxZero(c)) {
             *x1 = NOT_ROOT;
             return INFIN_ROOTS;
         } else {
             return 0;
         }
     } else {
-        if (isApproxZero(c)) {
+        if (IsApproxZero(c)) {
             *x1 = 0;
         } else {
             *x1 = -c / b;
