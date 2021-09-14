@@ -113,7 +113,7 @@
 
 ## Контакты
 
-Бирюков Никита - biryukov.n@gmail.com
+Бирюков Никита - n.biryukov.04@gmail.com
 Ссылка на проект: [https://github.com/mQwand/SolveEquation](https://github.com/mQwand/SolveEquation)
 
 
